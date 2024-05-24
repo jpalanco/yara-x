@@ -99,7 +99,7 @@ typedef struct YRX_METADATA_BYTES {
 // Metadata value.
 typedef union YRX_METADATA_VALUE {
   int64_t integer;
-  double float;
+  double flt;
   bool boolean;
   char *string;
   struct YRX_METADATA_BYTES bytes;
